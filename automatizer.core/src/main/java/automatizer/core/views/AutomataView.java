@@ -375,7 +375,7 @@ public class AutomataView extends ViewPart {
                 refreshDiagram();
             }
         };
-        actionShowMinNFA.setText("ε-free NFA");
+        actionShowMinNFA.setText("Show ε-free NFA");
         actionShowMinNFA
                 .setToolTipText("Show simplified NFA without ε-transitions");
         actionShowMinNFA.setImageDescriptor(PlatformUI.getWorkbench()
@@ -389,7 +389,7 @@ public class AutomataView extends ViewPart {
                 refreshDiagram();
             }
         };
-        actionShowMinDFA.setText("Min DFA");
+        actionShowMinDFA.setText("Show min DFA");
         actionShowMinDFA.setToolTipText("Show minimized DFA");
         actionShowMinDFA.setImageDescriptor(PlatformUI.getWorkbench()
                 .getSharedImages()
