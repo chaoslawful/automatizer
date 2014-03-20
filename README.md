@@ -33,7 +33,7 @@ successfully parsing, the DOT text must comply with the following restrictions:
 
 For example:
 
-```
+```dot
 digraph G {
 	2 [shape=doublecircle];
 	initial -> 1;
@@ -62,5 +62,5 @@ Authors and Contributors
 See Also
 --------
 
-* "JFLAP - a complete tutor software for formal languages and automata": http://www.jflap.org/
+* [JFLAP - a complete tutor software for formal languages and automata](http://www.jflap.org)
 
