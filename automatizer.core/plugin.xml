@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="automatizer.core.views.automatizer"
+            name="Automatizer Category">
+      </category>
+      <view
+            category="automatizer.core.views.automatizer"
+            class="automatizer.core.views.AutomataView"
+            icon="icons/automatizer-16.png"
+            id="automatizer.core.views.AutomataView"
+            name="Automata Visualization">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="automatizer.core.handlers.ShowAutomataViewHandler"
+            commandId="automatizer.core.commands.showAutomataCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="automatizer.core.commands.showAutomataCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+Z">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="automatizer.core.commands.automata"
+            name="Automatizer Category">
+      </category>
+      <command
+            categoryId="automatizer.core.commands.automata"
+            id="automatizer.core.commands.showAutomataCommand"
+            name="Show Automata">
+      </command>
+   </extension>
+
+</plugin>

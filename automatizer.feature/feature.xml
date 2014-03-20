@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="automatizer.feature"
+      label="Automatizer Feature"
+      version="0.0.1.qualifier"
+      provider-name="chaoslawful">
+
+   <description>
+      Automatizer is an Eclipse plugin to manipulate automata and regular
+expressions.
+   </description>
+
+   <url>
+      <update label="Automatizer Updates" url="http://chaoslawful.github.io/automatizer/update"/>
+   </url>
+
+   <plugin
+         id="automatizer.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

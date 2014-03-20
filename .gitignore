@@ -1,0 +1,15 @@
+*.class
+target
+*.log
+temp
+*.swp
+*.bak
+.classpath
+.project
+.settings
+.DS_Store
+build
+.svn
+*.iml
+.idea
+
