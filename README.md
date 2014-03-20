@@ -54,6 +54,14 @@ This plugin provides the following features:
 * Show regular expression corresponding to current automaton using state elimination method
 * Export automata transition diagram to image or Graphviz DOT file
 
+Todo List
+---------
+
+* Integrate some kind of regexp minimization algorithm
+* Integrate some kind of NFA minimization algorithm
+* Add ability to show ε-NFA transition diagram
+* Improve transition diagram layout (has to wait for release of Zest 2.x)
+
 Authors and Contributors
 ------------------------
 
