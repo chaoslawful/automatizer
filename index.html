@@ -54,6 +54,8 @@ follow the installation instructions.</li>
 will then parse the selection as regular expression and show corresponding FSA
 transition diagram in the view.</p>
 
+<p><img src="http://chaoslawful.github.io/automatizer/images/regexp-to-tg.png" alt="regexp2fsa"></p>
+
 <p>If the selected text is in Graphviz DOT syntax, the plugin will try to parse it
 as description of a FSA and show the corresponding transition diagram. For
 successfully parsing, the DOT text must comply with the following restrictions:</p>
@@ -77,6 +79,14 @@ be a single character, a character range (like <em>a-z</em>) or a character set
     2 -&gt; 1 [label="[01]"];
 }
 </code></pre>
+
+<p><img src="http://chaoslawful.github.io/automatizer/images/dot-to-tg.png" alt="dot2fsa"></p>
+
+<p>If you clicked <em>Show Regexp</em> in context menu of the view, the regular
+expression string converted from the current automaton would also be shown
+along with the transition diagram.</p>
+
+<p><img src="http://chaoslawful.github.io/automatizer/images/dot-to-tg-regexp.png" alt="dot2fsa-regex"></p>
 
 <h2>
 <a name="plugin-overview" class="anchor" href="#plugin-overview"><span class="octicon octicon-link"></span></a>Plugin Overview</h2>
@@ -118,7 +128,17 @@ be a single character, a character range (like <em>a-z</em>) or a character set
       </footer>
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-8232901-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
 
   </body>
 </html>
