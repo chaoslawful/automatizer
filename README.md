@@ -21,7 +21,7 @@ Press **Ctrl-Alt-Z** to show automatizer view and select any text. The plugin
 will then parse the selection as regular expression and show corresponding FSA
 transition diagram in the view.
 
-![Regexp2FSA](http://chaoslawful.github.io/automatizer/images/regexp-to-tg.png)
+![Regexp2FSA](https://raw.githubusercontent.com/chaoslawful/automatizer/gh-pages/images/regexp-to-tg.png)
 
 If the selected text is in Graphviz DOT syntax, the plugin will try to parse it
 as description of a FSA and show the corresponding transition diagram. For
@@ -46,13 +46,13 @@ digraph G {
 }
 ```
 
-![DOT2FSA](http://chaoslawful.github.io/automatizer/images/dot-to-tg.png)
+![DOT2FSA](https://raw.githubusercontent.com/chaoslawful/automatizer/gh-pages/images/dot-to-tg.png)
 
 If you clicked *Show Regexp* in context menu of the view, the regular
 expression string converted from the current automaton would also be shown
 along with the transition diagram.
 
-![FSA2Regexp](http://chaoslawful.github.io/automatizer/images/dot-to-tg-regexp.png)
+![FSA2Regexp](https://raw.githubusercontent.com/chaoslawful/automatizer/gh-pages/images/dot-to-tg-regexp.png)
 
 Plugin Overview
 ---------------
